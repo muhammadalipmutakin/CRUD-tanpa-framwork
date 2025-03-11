@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "token": "sample-jwt-token"
+    }
+  ],
+  "barang": [
+    {
+      "id": "0fda",
+      "nama": "Barang 1",
+      "harga": "123"
+    },
+    {
+      "id": "1ce8",
+      "nama": "Barang 2",
+      "harga": "200000"
+    }
+  ]
+}

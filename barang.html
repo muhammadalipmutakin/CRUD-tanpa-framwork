@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Barang</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="p-8">
+    <div class="container mx-auto">
+        <div class="flex justify-between mb-4">
+            <h1 class="text-2xl font-bold">Manajemen Data Barang</h1>
+            <button onclick="logout()" class="bg-red-500 text-white px-4 py-2 rounded">Logout</button>
+        </div>
+        <button onclick="window.location.href='tambah.html'" class="bg-green-500 text-white px-4 py-2 rounded">Tambah Barang</button>
+
+        <table class="w-full bg-white border">
+            <thead>
+                <tr>
+                    <th class="border p-2">ID</th>
+                    <th class="border p-2">Nama</th>
+                    <th class="border p-2">Harga</th>
+                    <th class="border p-2">Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="barang-list"></tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
